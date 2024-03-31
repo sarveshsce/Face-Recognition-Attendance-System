@@ -1,21 +1,48 @@
- FACE RECOGNITION ATTENDANCE SYSTEM
 
-A python GUI integrated attendance system using face recognition to take attendance.
 
-In this python project, I have made an attendance system which takes attendance by using face recognition technique. I have also intergrated it with GUI (Graphical user interface) so it can be easy to use by anyone. GUI for this project is also made on python using tkinter.
+**Face Recognition Attendance System**
 
-TECHNOLOGY USED:
-1) tkinter for whole GUI
-2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
-3) CSV, Numpy, Pandas, datetime etc. for other purposes.
 
-FEATURES:
-1) Easy to use with interactive GUI support.
-2) Password protection for new person registration.
-3) Creates/Updates CSV file for details of students on registration.
-4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
-5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
+**Features:**
 
-INSTALLATION GUIDE:
- 1) Install all required libraries from requirements.txt by using "pip install requirements.txt"
- 2) After installing run main.py file
+- **Face Detection:** Utilizes Haarcascade face detection algorithms to accurately detect faces from images and video streams.
+  
+- **Face Recognition:** Implements pre-trained deep learning models such as OpenCV's Deep Neural Networks for face recognition, enabling accurate recognition of registered individuals.
+  
+- **Attendance Recording:** Automatically records attendance based on recognized faces, eliminating the need for manual entry and reducing administrative workload.
+  
+- **User Registration:** Allows administrators to register individuals into the system by capturing their facial features and storing them securely.
+  
+- **User Interface:** Provides a user-friendly interface for administrators to interact with the system, view attendance records, and manage user profiles.
+
+**Installation:**
+
+1. Clone the repository to your local machine:
+
+   ```
+   git clone https://github.com/your-username/face-recognition-attendance-system.git
+   ```
+
+2. Install the required dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```
+   python main.py
+   ```
+
+**Usage:**
+
+1. Register Users: Capture facial features of individuals and register them into the system.
+2. Start Attendance: Initiate attendance recording by running the application.
+3. View Records: View attendance records and generate reports as needed.
+
+
+**License:**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
