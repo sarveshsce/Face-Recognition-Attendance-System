@@ -16,6 +16,6 @@ FEATURES:
 4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
 5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
 
-   INSTALLATION GUIDE:
-   1) Install all required libraries from requirements.txt by using "pip install requirements.txt"
-   2) After installing run main.py file
+INSTALLATION GUIDE:
+ 1) Install all required libraries from requirements.txt by using "pip install requirements.txt"
+ 2) After installing run main.py file
