@@ -42,7 +42,5 @@
 3. View Records: View attendance records and generate reports as needed.
 
 
-**License:**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
