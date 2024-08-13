@@ -20,7 +20,7 @@
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/face-recognition-attendance-system.git
+   git clone https://github.com/sarveshsce/face-recognition-attendance-system.git
    ```
 
 2. Install the required dependencies:
